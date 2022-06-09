@@ -11,9 +11,9 @@ function getRandomNumber (min, max) {
     }
 }
 
-function verifyStringLenght (string, lenght) {
+function verifyStringLenght (string, stringLenght) {
 let verify
-  if (string.lenght <= lenght) {
+  if (string.lenght <= stringLenght) {
     verify = true;
   } else {
     verify = false;  
